@@ -1,12 +1,14 @@
 Source: camx-nhx
-Section: misc
-Priority: optional
+Section: non-free/misc
 Maintainer: Ganesh khose <gkhose@qti.qualcomm.com>
-Rules-Requires-Root: no
+Uploaders:
+ Agathe Porte <agathe.porte@oss.qualcomm.com>,
 Build-Depends:
  debhelper-compat (= 13),
 Standards-Version: 4.6.2
 Homepage: http://support.cdmatech.com
+Vcs-Browser: https://github.com/qualcomm-linux/pkg-camx-nhx
+Vcs-Git: https://github.com/qualcomm-linux/pkg-camx-nhx.git
 
 Package: camx-nhx
 Architecture: arm64

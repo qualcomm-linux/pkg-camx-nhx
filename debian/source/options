@@ -1,1 +1,1 @@
-options
+extend-diff-ignore = ^\.github
