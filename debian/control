@@ -7,6 +7,8 @@ Build-Depends:
  debhelper-compat (= 13),
 Standards-Version: 4.6.2
 Homepage: http://support.cdmatech.com
+Vcs-Browser: https://github.com/qualcomm-linux/pkg-camx-nhx
+Vcs-Git: https://github.com/qualcomm-linux/pkg-camx-nhx.git
 
 Package: camx-nhx
 Architecture: arm64
