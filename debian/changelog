@@ -1,5 +1,5 @@
-camx-nhx (1.0.0-1) UNRELEASED; urgency=medium
+camx-nhx (1.0.0-0qli+staging1~) UNRELEASED; urgency=medium
 
   * Initial release.
 
- -- Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>  Mon, 06 Jan 2025 20:14:14 -0800
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Wed, 22 Jul 2026 12:24:10 +0200
