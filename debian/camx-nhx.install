@@ -1,2 +1,2 @@
-data/camx-nhx/arm64/usr/bin/nhx.sh usr/bin
-data/camx-nhx/arm64/etc/camera/test/NHX/NHX.YUV_NV12_Prev_MaxRes.json etc/camera/test/NHX
+camx-nhx/arm64/usr/bin/nhx.sh usr/bin
+camx-nhx/arm64/etc/camera/test/NHX/NHX.YUV_NV12_Prev_MaxRes.json etc/camera/test/NHX
