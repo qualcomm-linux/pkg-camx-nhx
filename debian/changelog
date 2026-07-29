@@ -1,8 +1,9 @@
-camx-nhx (1.0.2-0qli+staging1~bpo13+1) UNRELEASED; urgency=medium
+camx-nhx (1.0.2-0qli+staging1~bpo13+1) trixie; urgency=medium
 
+  [ Chinmay Patil ]
   * Rebuild for trixie.
 
- -- Chinmay Patil <chinpati@qti.qualcomm.com>  Wed, 29 Jul 2026 17:08:41 +0530
+ -- Debusine Action GitHub Bot <noreply@bot.invalid>  Wed, 29 Jul 2026 11:44:48 +0000
 
 camx-nhx (1.0.2-0qli+staging1) forky; urgency=medium
 
