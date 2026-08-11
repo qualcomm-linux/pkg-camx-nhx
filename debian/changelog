@@ -1,8 +1,9 @@
-camx-nhx (1.0.3-0qli1~bpo13+1~) UNRELEASED; urgency=medium
+camx-nhx (1.0.3-0qli1~bpo13+1) trixie; urgency=medium
 
+  [ Agathe Porte ]
   * Rebuild for trixie.
 
- -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Tue, 11 Aug 2026 16:06:12 +0200
+ -- Debusine Action Bot <noreply@bot.invalid>  Tue, 11 Aug 2026 14:09:38 +0000
 
 camx-nhx (1.0.3-0qli1) forky; urgency=medium
 
