@@ -1,8 +1,11 @@
 camx-nhx (1.0.3-0qli+staging1~) UNRELEASED; urgency=medium
 
   * New upstream release
+  * d/control: drop unused shlibs depends
+  * d/control: rework description
+  * Install nhx.sh in /usr/libexec/camx/ directory
 
- -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Tue, 11 Aug 2026 15:25:09 +0200
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Tue, 11 Aug 2026 15:33:31 +0200
 
 camx-nhx (1.0.2-0qli+staging1) forky; urgency=medium
 
