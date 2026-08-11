@@ -4,7 +4,8 @@ camx-nhx (1.0.3-0qli1~) UNRELEASED; urgency=medium
   * New upstream release
   * d/control: drop unused shlibs depends
   * d/control: rework description
-  * Install nhx.sh in /usr/libexec/camx/ directory
+  * Install nhx.sh in /usr/libexec/camx/ directory;
+    see https://github.com/qualcomm-linux/pkg-camx-nhx/issues/16
   * d/copyright: add disclaimer for non-free
   * Update Standards-Version to 4.7.4 (no changes needed)
 
