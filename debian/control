@@ -14,5 +14,5 @@ Package: camx-nhx
 Architecture: arm64
 Depends:
  ${misc:Depends},
-Description: Qualcomm camx NHX package
- nhx.sh script to run nativehal
+Description: Qualcomm CamX - NHX script
+ This package provides the nhx.sh script to run nativehal.
