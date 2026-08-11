@@ -1,4 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Disclaimer:
+ This package is used to distribute a closed-source shell script under
+ the Qualcomm.nologin.binaries.license.
 
 Files:
  *
