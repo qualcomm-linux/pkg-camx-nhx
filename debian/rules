@@ -2,3 +2,8 @@
 
 %:
 	dh $@
+
+maintainerclean:
+	rm -r \
+		camx-nhx/ \
+		LICENSE.qcom-2
