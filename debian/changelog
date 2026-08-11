@@ -11,12 +11,6 @@ camx-nhx (1.0.2-0qli+staging1) forky; urgency=medium
 
  -- Debusine Action GitHub Bot <noreply@bot.invalid>  Wed, 29 Jul 2026 10:17:46 +0000
 
-camx-nhx (1.0.1-0qli+staging2~) UNRELEASED; urgency=medium
-
-  * Updated tar
-
- -- Debusine Action GitHub Bot <noreply@bot.invalid>  Wed, 22 Jul 2026 10:57:42 +0000
-
 camx-nhx (1.0.0-0qli+staging1) forky; urgency=medium
 
   [ Agathe Porte ]
