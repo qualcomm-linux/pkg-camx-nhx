@@ -1,5 +1,6 @@
-camx-nhx (1.0.3-0qli+staging1~) UNRELEASED; urgency=medium
+camx-nhx (1.0.3-0qli1~) UNRELEASED; urgency=medium
 
+  * Initial upload to QLI
   * New upstream release
   * d/control: drop unused shlibs depends
   * d/control: rework description
