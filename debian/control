@@ -1,8 +1,6 @@
 Source: camx-nhx
 Section: non-free/misc
-Maintainer: Ganesh khose <gkhose@qti.qualcomm.com>
-Uploaders:
- Agathe Porte <agathe.porte@oss.qualcomm.com>,
+Maintainer: Agathe Porte <agathe.porte@oss.qualcomm.com>
 Build-Depends:
  debhelper-compat (= 13),
 Standards-Version: 4.7.4
