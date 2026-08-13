@@ -3,5 +3,7 @@
 %:
 	dh $@
 
-override_dh_auto_install:
-	cp -a data/camx-nhx/* debian/tmp/;
+maintainerclean:
+	rm -r \
+		camx-nhx/ \
+		LICENSE.qcom-2

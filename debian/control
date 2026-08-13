@@ -1,17 +1,16 @@
 Source: camx-nhx
-Section: misc
-Priority: optional
-Maintainer: Ganesh khose <gkhose@qti.qualcomm.com>
-Rules-Requires-Root: no
+Section: non-free/misc
+Maintainer: Agathe Porte <agathe.porte@oss.qualcomm.com>
 Build-Depends:
  debhelper-compat (= 13),
-Standards-Version: 4.6.2
+Standards-Version: 4.7.4
 Homepage: http://support.cdmatech.com
+Vcs-Browser: https://github.com/qualcomm-linux/pkg-camx-nhx
+Vcs-Git: https://github.com/qualcomm-linux/pkg-camx-nhx.git
 
 Package: camx-nhx
 Architecture: arm64
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
-Description: Qualcomm camx NHX package
- nhx.sh script to run nativehal
+Description: Qualcomm CamX - NHX script
+ This package provides the nhx.sh script to run nativehal.
