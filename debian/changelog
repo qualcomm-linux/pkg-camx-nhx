@@ -1,9 +1,10 @@
-camx-nhx (1.0.4-1) UNRELEASED; urgency=medium
+camx-nhx (1.0.4-1) resolute; urgency=medium
 
+  [ Qualcomm Camera Team ]
   [ Qualcomm Camera Team]
   * New upstream release using updated NHX bin path
 
- -- Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>  Thu, 13 Aug 2026 07:23:00 +0000
+ -- GitHub Service Bot <githubservice@qti.qualcomm.com>  Fri, 14 Aug 2026 16:49:39 +0000
 
 camx-nhx (1.0.0-1) resolute; urgency=medium
 
