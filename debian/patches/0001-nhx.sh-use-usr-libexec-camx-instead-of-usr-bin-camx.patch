@@ -14,7 +14,7 @@ Signed-off-by: Agathe Porte <agathe.porte@oss.qualcomm.com>
          # Format SoC IDs for display
          display_ids=$(echo "${soc_ids}" | tr ',' ', ')
 -        printf "  - %-30s -> /usr/bin/camx/%s/nativehaltest\n" "${display_ids}" "${dir}"
-+        printf "  - %-30s -> /usr/libexec/camx-%s/nativehaltest\n" "${display_ids}" "${dir}"
++        printf "  - %-30s -> /usr/libexec/aarch64-linux-gnu/camx-%s/nativehaltest\n" "${display_ids}" "${dir}"
      done
  }
  
@@ -23,7 +23,7 @@ Signed-off-by: Agathe Porte <agathe.porte@oss.qualcomm.com>
  # Parse configuration
  SOC_NAME="$(echo "${SOC_CONFIG}" | cut -d'|' -f1)"
 -NHX_DIR="/usr/bin/camx/$(echo "${SOC_CONFIG}" | cut -d'|' -f3)"
-+NHX_DIR="/usr/libexec/camx-$(echo "${SOC_CONFIG}" | cut -d'|' -f3)"
++NHX_DIR="/usr/libexec/aarch64-linux-gnu/camx-$(echo "${SOC_CONFIG}" | cut -d'|' -f3)"
  
  # Determine JSON file to use (argument overrides SoC default)
  if [ $# -eq 0 ]; then
