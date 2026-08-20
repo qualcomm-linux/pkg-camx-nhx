@@ -1,3 +1,9 @@
+camx-nhx (1.0.3-0qli2~bpo13+1~) UNRELEASED; urgency=medium
+
+  * Rebuild for trixie.
+
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Thu, 20 Aug 2026 10:46:26 +0200
+
 camx-nhx (1.0.3-0qli2) forky; urgency=medium
 
   [ Agathe Porte ]
