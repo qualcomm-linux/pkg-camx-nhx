@@ -1,0 +1,29 @@
+From: Agathe Porte <agathe.porte@oss.qualcomm.com>
+Date: Thu, 20 Aug 2026 10:20:50 +0200
+Subject: nhx.sh: use /usr/libexec/camx-* instead of /usr/bin/camx/*
+
+There should never be subdirectories in /usr/bin/. Use /usr/libexec to
+find the nativehaltest files.
+
+Signed-off-by: Agathe Porte <agathe.porte@oss.qualcomm.com>
+---
+--- a/camx-nhx/arm64/usr/bin/nhx.sh
++++ b/camx-nhx/arm64/usr/bin/nhx.sh
+@@ -102,7 +102,7 @@
+         [ -z "${soc_ids}" ] && continue
+         # Format SoC IDs for display
+         display_ids=$(echo "${soc_ids}" | tr ',' ', ')
+-        printf "  - %-30s -> /usr/bin/camx/%s/nativehaltest\n" "${display_ids}" "${dir}"
++        printf "  - %-30s -> /usr/libexec/camx-%s/nativehaltest\n" "${display_ids}" "${dir}"
+     done
+ }
+ 
+@@ -160,7 +160,7 @@
+ 
+ # Parse configuration
+ SOC_NAME="$(echo "${SOC_CONFIG}" | cut -d'|' -f1)"
+-NHX_DIR="/usr/bin/camx/$(echo "${SOC_CONFIG}" | cut -d'|' -f3)"
++NHX_DIR="/usr/libexec/camx-$(echo "${SOC_CONFIG}" | cut -d'|' -f3)"
+ 
+ # Determine JSON file to use (argument overrides SoC default)
+ if [ $# -eq 0 ]; then
