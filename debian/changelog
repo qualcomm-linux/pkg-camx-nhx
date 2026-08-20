@@ -1,8 +1,9 @@
 camx-nhx (1.0.3-0qli3~) UNRELEASED; urgency=medium
 
-  * Unreleased changes
+  [ Agathe Porte ]
+  * libexec: use aarch64-linux-gnu for nativehaltest
 
- -- Debusine Action Bot <noreply@bot.invalid>  Thu, 20 Aug 2026 08:39:56 +0000
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Thu, 20 Aug 2026 11:05:50 +0200
 
 camx-nhx (1.0.3-0qli2) forky; urgency=medium
 
