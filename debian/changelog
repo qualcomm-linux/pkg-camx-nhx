@@ -1,3 +1,9 @@
+camx-nhx (1.0.51-0qli1~bpo13+1~) UNRELEASED; urgency=medium
+
+  * Rebuild for trixie.
+
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Wed, 14 Oct 2026 17:07:57 +0200
+
 camx-nhx (1.0.51-0qli1) forky; urgency=medium
 
   [ Qualcomm Camera Team ]
