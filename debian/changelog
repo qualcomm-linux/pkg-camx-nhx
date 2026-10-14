@@ -3,7 +3,14 @@ camx-nhx (1.0.51-0qli1~) UNRELEASED; urgency=medium
   [ Qualcomm Camera Team ]
   * New upstream release
 
- -- Qualcomm Camera Team <camera.deb.maintainers@qti.qualcomm.com>  Wed, 14 Oct 2026 12:34:05 +0530
+  [ Chinmay Patil ]
+  * d/.install: Install camera-nhx instead of nhx.sh
+  * d/patches: Add arch triplet patch for camera-nhx
+
+  [ Agathe Porte ]
+  * d/rules: maintainerclean: remove NOTICE file and gitignore it
+
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Wed, 14 Oct 2026 16:59:33 +0200
 
 camx-nhx (1.0.3-0qli3) forky; urgency=medium
 
