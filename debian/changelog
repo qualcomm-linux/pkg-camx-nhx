@@ -1,4 +1,4 @@
-camx-nhx (1.0.51-0qli1~) UNRELEASED; urgency=medium
+camx-nhx (1.0.51-0qli1) forky; urgency=medium
 
   [ Qualcomm Camera Team ]
   * New upstream release
@@ -10,7 +10,7 @@ camx-nhx (1.0.51-0qli1~) UNRELEASED; urgency=medium
   [ Agathe Porte ]
   * d/rules: maintainerclean: remove NOTICE file and gitignore it
 
- -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Wed, 14 Oct 2026 16:59:33 +0200
+ -- Debusine Action Bot <noreply@bot.invalid>  Wed, 14 Oct 2026 15:02:22 +0000
 
 camx-nhx (1.0.3-0qli3) forky; urgency=medium
 
