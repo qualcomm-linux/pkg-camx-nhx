@@ -6,4 +6,5 @@
 maintainerclean:
 	rm -r \
 		camx-nhx/ \
-		LICENSE.qcom-2
+		LICENSE.qcom-2 \
+		NOTICE
